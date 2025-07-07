@@ -1,0 +1,54 @@
+# Archivos de Git
+.git
+.gitignore
+README.md
+
+# Archivos de desarrollo
+.env
+.env.local
+.env.development
+.env.test
+
+# Archivos de Node.js (si los hay)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Archivos de Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Archivos de IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+logs/
+
+# Archivos de Docker
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+
+# Archivos de configuración local
+configs/
+ssl/
+
+# Archivos de test
+*_test.go
+test/
+coverage.out

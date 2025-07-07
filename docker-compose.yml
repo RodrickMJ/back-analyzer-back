@@ -1,0 +1,16 @@
+services:
+  rest-api:
+    build:
+      context: './backend'
+      dockerfile: dockerfile
+    environment:
+      - GIN_MODE=release
+      - PORT=8080
+    networks:
+      - backend
+    ports:
+      - "8080:8080"
+
+networks:
+  backend:
+    driver: bridge
